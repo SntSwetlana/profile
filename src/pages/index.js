@@ -15,7 +15,6 @@ export default function Home() {
       <Head>
         <title>SntSwetlana Portfolio</title>
         <meta name="description" content="amazing life of coding" />
-
       </Head>
       <main className='flex items-center text-dark w-full min-h-screen'>
         <Layout className='pt-0'>
