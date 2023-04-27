@@ -51,13 +51,13 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start'>
                 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Biography</h2>
                 <p className='font-medium'>
-                Hi, I'm SntSwetlana, and I'm not just a web developer who loves building functional and user-friendly digital apps. With years of experience across different areas of the digital industry, I'm always on the lookout for new and innovative ways to bring interesting ideas to life.
+                Hi, I&apos;m SntSwetlana, and I&apos;m not just a web developer who loves building functional and user-friendly digital apps. With years of experience across different areas of the digital industry, I&apos;m always on the lookout for new and innovative ways to bring interesting ideas to life.
                 </p>
                 <p className='my-4 font-medium'>
                 I believe that modern technology is the best tool we could have received to bring to life ideas that have been brewing for years. Today, it is more than just a beautiful design, it is a fast solution to many problems and the creation of an intuitive, pleasant interface that allows us to solve tasks of any importance.
                 </p>
                 <p className='font-medium'>
-                Whether I'm working on a website, a mobile application, or any other digital product, I bring my dedication to quality development and user-centered thinking to every project I work on.
+                Whether I&apos;m working on a website, a mobile application, or any other digital product, I bring my dedication to quality development and user-centered thinking to every project I work on.
                 </p>
             </div>
             <div className='col-span-3 relative h-max rounded-2xl border-2 
