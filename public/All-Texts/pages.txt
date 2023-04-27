@@ -8,113 +8,66 @@ Explore my latest projects and articles, showcasing my expertise in React.js and
 
 ABOUT PAGE:
 
-- Passion Fuels Purpose! 
-- Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-new and innovative ways to bring my clients' visions to life.
+- You can't put a limit on the love for your craft!
 
-- I believe that design is about more than just making things look pretty – it's about solving problems and 
-creating intuitive, enjoyable experiences for users. 
+- Hey, I'm SntSwetlana, and I'm not just a web developer who loves building functional and user-friendly digital apps. With years of experience across different areas of the digital industry, I'm always on the lookout for new and innovative ways to bring interesting ideas to life.
 
-- Whether I'm working on a website, mobile app, or 
-other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+- I believe that modern technology is the best tool we could have received to bring to life ideas that have been brewing for years. Today, it is more than just a beautiful design, it is a fast solution to many problems and the creation of an intuitive, pleasant interface that allows us to solve tasks of any importance.
+
+- Whether I'm working on a website, a mobile application, or any other digital product, I bring my dedication to quality development and user-centered thinking to every project I work on.
 
 --------------------------------------------------------------
 
 EXPERIENCE: 
 
-Software Engineer @Google
-2022-Present | Mountain View, CA
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization.
+Software Developer @Voronezh Research Institute of Communications
+Summer 1999-2012| Voronezh, Russian Federation.
+Worked in a team responsible for the development of new commercial satellite band hardware and software systems, including the development of a new user interface and commercial band data analysis.
 
-Intern @Facebook
-Summer 2021 | Menlo Park, CA.
-Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-share short-form video content, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature.
+Software Developer @Moscow Research and production company
+Summer 2007-2020 | Moscow, Russian Federation.
+Participated in the development of the architecture and interface of software complexes for the accounting and fixing of changes in the loading of commercial frequency bands across different ranges, as well as for fixing changes in the topology of registered networks.
 
-Software Developer @Amazon
-2020-2021 | Seattle, WA.
-Worked on a team responsible for developing Amazon's mobile app, including implementing new features such 
-as product recommendations and user reviews, and optimizing the app's performance and reliability.
-
-Software Developer Intern @Microsoft
-Summer 2019 | Redmond, WA.
-Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
-including implementing a new user interface for a system settings panel and optimizing the performance of 
-a core system component.
-
-Teaching Assistant @MIT
-Fall 2018 | Massachusetts Ave, Cambridge, MA.
-Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
-and graded exams and assignments.
-
+Software Developer @Moscow Astronomical Science Center
+2012-Present | Moscow, Russian Federation
+As an interface programmer, I was responsible for developing interfaces for software complexes that take into account and record changes in the loading of commercial frequency bands and network topology. I created various user interface options, selected appropriate design choices, and developed corresponding functional capabilities based on user role models. Intuitively understandable and easy-to-use interfaces allowed for significant time savings in performing tasks. I utilized various data visualization tools such as diagrams, waterfalls, graphics, and tabular representations to help users quickly assess the state of the system.
+I participated in integrating notification functions into the interface so that users could quickly receive notifications about system changes and respond to them promptly.
+As an interface programmer, it was always important for me to provide a clear and effective way for users to interact with software complexes for tracking and fixing changes in the loading of commercial frequency bands and network topology.
 
 --------------------------------------------------------------
 
 EDUCATION:
 
-Bachelor Of Science In Computer Science
-2016-2020 | Massachusetts Institute Of Technology (MIT)
-Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
+Bachelor Of Radiophysics， Electronics
+1998-2002 | Voronezh State University
+Relevant courses included  Data structures, algorithms, mathematical analysis, theory of conflict management in telecommunication systems, mathematical methods of spatiotemporal measurements, computational methods of data processing.  
 Intelligence.
 
-Master Of Computer Science
-2020-2022 | Stanford University
-Completed a master's project on deep learning, developing a new neural network architecture for natural 
-language understanding.
-
-Online Coursework
-2016-2020 | Coursera And EdX
-Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-Learning Engineering.
+Master  Of Radiophysics， Electronics
+2002-2004 | Voronezh State University
+Information technologies in the field of image acquisition, processing, digital modeling of radio physical processes and systems.
+Completed a master's project on  image processing using of various algorithms for recovering lost data.
 
 --------------------------------------------------------------
 
 PROJECTS PAGE:
 
-- Imagination Trumps Knowledge!
-
-Crypto Screener Application
-A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.
+- Practice make perfect!
 
 React Portfolio Website
-A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-page transitions, cool background effects, unique design and it is mobile responsive.
+Professional portfolio site using React JS, Framer-motion and Styled-components. It has smooth page transitions, cool background effects, unique design and mobile responsiveness.
 
 --------------------------------------------------------------
 
 ARTICLES PAGE:
 
-- Words Can Change The World! 
+- Make a difference every day! 
 
-Build A Custom Pagination Component In Reactjs From Scratch
-Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project.
-9 min read
+Article 1
 
-Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens
-Learn how to create stunning loading screens in React with 3 different methods. 
-Discover how to use React-Loading, React-Lottie & build a custom loading screen. 
-Improve the user experience.
-10 min read
+Article 2
 
-Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-
-Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers
-
-Creating An Efficient Modal Component In React Using Hooks And Portals
-
-Build A Fabulous Todo List App With React, Redux And Framer-Motion
-
-Redux Simplified: A Beginner's Guide For Web Developers
-
-What Is Higher Order Component (Hoc) In React?
+Article 3
 
 
 
