@@ -1,3 +1,7 @@
 {
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.fileNesting.enabled": false,
+    "explorer.excludeGitIgnore": false,
+    "explorer.fileNesting.expand": true,
+    "debug.openExplorerOnEnd": true
 }
