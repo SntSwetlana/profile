@@ -123,7 +123,7 @@ const NavBar = () => {
       </div>
       {
         isOpen ? (
-          <motion.div
+          <div
             initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
             animate={{ scale: 1, opacity: 1 }}
             className="min-w-[70vw] sm:min-w-[90vw] flex flex-col 
@@ -170,22 +170,22 @@ const NavBar = () => {
                 whileTap={{ scale: 0.9 }}
                 className='w-6 mx-3 sm:mx-1'
               >
-                <MoonIcon className={"fill-dark"} />
+                <DribbleIcon />
               </motion.a>
               <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className={`ml-3 flex items-center justify-center rounded-full p-1 ease
+                className={`ml-3 flex items-center justify-center rounded-full p-1
                            ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
               >
                 {mode === "light" ? (
-                  <DribbleIcon className={"fill-dark"} />
+                  <SunIcon className={"fill-dark"} />
                 ) : (
-                  <DribbleIcon className={"fill-dark"} />
+                  <MoonIcon className={"fill-dark"} />
                 )}
               </button>
 
             </nav>
-          </motion.div>
+          </div>
         ) : null
       }
       <div className='absolute left-[50%] top-2 translate-x-[-50%]'>
