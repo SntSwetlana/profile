@@ -10,6 +10,7 @@ import project2 from "@/assets/images/E-commerce.png";
 import project3 from "@/assets/images/FrontDashboard.png";
 import project4 from "@/assets/images/AdminSide.png";
 import { motion } from 'framer-motion';
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FrameImage = motion(Image);
 
@@ -22,7 +23,7 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                       xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
         >
            <div className='absolute top-0 -right-4 -z-10 w-[101%] h-[102%] rounded-[2.5rem] bg-dark dark:bg-light
-                           rounded-br-3xl xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
+                           rounded-br-3xl xs:-right-2 sm:h-[101%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target = "_blank"
                   className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'
             >
@@ -116,6 +117,7 @@ const products = () => {
         <title>SntSwetlana | Projects Page</title>
         <meta name="description" content='more about projects'/>
         </Head>
+        <TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
                 <AnimatedText 

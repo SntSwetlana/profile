@@ -14,6 +14,7 @@ import article5 from "@/assets/images/flip-the-coin.png"
 import article6 from "@/assets/images/line-with-hats.png"
 import article7 from "@/assets/images/disguised-as-an-older-man-asking-2-guards-a-question.png"
 import article8 from "@/assets/images/The-man-chief.png"
+import TransitionEffect from '@/components/TransitionEffect';
 
 const FrameImage = motion(Image);
 
@@ -78,7 +79,7 @@ const Article = ({ img, title, link, date }) => {
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
   return (
     <li className='relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl dark:bg-dark dark:border-light'>
-      <div className='absolute top-0 -right-4 -z-10 w-[101%] h-[102%] rounded-[2.5rem] bg-dark dark:bg-light
+      <div className='absolute top-0 -right-4 -z-10 w-[101%] h-[101%] rounded-[2.5rem] bg-dark dark:bg-light
                       rounded-br-3xl ' />
       <Link
         href={link}
@@ -113,6 +114,7 @@ const articles = () => {
         <title>SntSwetlana | Article Page</title>
         <meta name="description" content='more about me' />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col item-center justify-center overflow-hidden
       dark:text-light
       ">

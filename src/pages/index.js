@@ -8,6 +8,7 @@ import AnimatedText from '@/components/AnimatedText'
 import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import lightBulb from "@/assets/images/miscellaneous_icons_1.svg";
+import TransitionEffect from '@/components/TransitionEffect'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <title>SntSwetlana Portfolio</title>
         <meta name="description" content="amazing life of coding" />
       </Head>
+      <TransitionEffect />
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light sm:items-start'>
         <Layout className="pt-0 md:pt-16 sm:pt-16">
           <div className='flex items-center justify-between w-full lg:flex-col'>
