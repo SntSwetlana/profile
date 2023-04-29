@@ -136,9 +136,9 @@ const NavBar = () => {
               <CustomMobileLink href="/products" title="Projects" className='' toggle={handleClick} />
               <CustomMobileLink href="/articles" title="Articles" className='' toggle={handleClick} />
             </nav>
-            <nav className='flex items-center justify-center flex-row mt-2'>
+            <nav className="flex items-center justify-center flex-wrap mt-2">
               <a href="https://twitter.com" target={"_blank"}
-                className='w-6 mx-3 sm:mx-1'
+                className='w-6 mr-3 sm:mx-1'
               >
                 <TwitterIcon />
               </a>
@@ -164,7 +164,7 @@ const NavBar = () => {
               </a>
               <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className={`ml-3 rounded-full p-1 sm:mx-1
+                className={`ml-3 flex items-center justify-center rounded-full p-1
                            ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
               >
                 {mode === "light" ? (
