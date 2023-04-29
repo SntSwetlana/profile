@@ -162,15 +162,16 @@ const NavBar = () => {
               >
                 <DribbleIcon />
               </a>
-              <a href="https://dribble.com" target={"_blank"}
+              <button 
                 className='w-6 ml-3 sm:mx-1'
+                onClick={() => setMode(mode === "light" ? "dark" : "light")}
               >
                 {mode === "light" ? (
                   <SunIcon className={"fill-dark"} />
                 ) : (
                   <MoonIcon className={"fill-dark"} />
                 )}
-              </a>
+              </button>
               {/* <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
                 className={`ml-3 flex items-center justify-center rounded-full p-1
