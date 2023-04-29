@@ -95,7 +95,7 @@ const NavBar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a href="https://pintres.com" target={"_blank"}
+          <motion.a href="https://pinterest.com/" target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className='w-6 mx-3 bg-light rounded-full'
@@ -158,7 +158,7 @@ const NavBar = () => {
               >
                 <LinkedInIcon />
               </motion.a>
-              <motion.a href="https://pintres.com" target={"_blank"}
+              <motion.a href="https://pinterest.com/" target={"_blank"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
                 className='w-6 mx-3 bg-light rounded-full  sm:mx-1'
@@ -172,17 +172,17 @@ const NavBar = () => {
               >
                 <DribbleIcon />
               </motion.a>
-              <motion.a
+              <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
                 className={`ml-3 flex items-center justify-center rounded-full p-1
-                           ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
-                          `}>
+                           ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
+              >
                 {mode === "light" ? (
-                  <SunIcon className={"fill-dark"} />
+                  <DribbleIcon className={"fill-dark"} />
                 ) : (
-                  <MoonIcon className={"fill-dark"} />
+                  <DribbleIcon className={"fill-dark"} />
                 )}
-              </motion.a>
+              </button>
 
             </nav>
           </motion.div>
