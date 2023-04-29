@@ -170,11 +170,11 @@ const NavBar = () => {
                 whileTap={{ scale: 0.9 }}
                 className='w-6 mx-3 sm:mx-1'
               >
-                <DribbleIcon />
+                <MoonIcon className={"fill-dark"} />
               </motion.a>
               <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className={`ml-3 flex items-center justify-center rounded-full p-1
+                className={`ml-3 flex items-center justify-center rounded-full p-1 ease
                            ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
               >
                 {mode === "light" ? (
