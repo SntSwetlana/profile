@@ -40,7 +40,7 @@ export default function Home() {
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
                 As a web developer, my commitment is to transform concepts into inventive web applications. You can check out my recent projects and articles that demonstrate my skills in React.js and web development.
               </p>
-              <div className="flex items-center self-start mt-2 lg:self-center">
+              <div className="flex items-center justify-center flex-wrap mt-2">
                 <Link href='/dummy.pdf' target={'_blank'}
                 className="flex items-center bg-dark text-light p-2.5 px-6 
                 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
@@ -48,7 +48,7 @@ export default function Home() {
                 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
                 hover:dark:border-light md:p-2 md:px-2 md:text-base"
                 download={true}
-                > Resume <LinkArrow className={`w-6 ml-3 rounded-full sm:ml-1 border border-solid border-emerald-600`}/>
+                > Resume <LinkArrow className={`ml-3 sm:ml-1 border border-solid border-emerald-600`}/>
                 </Link>
                 <Link href="mailto: snt.swetlana@gmail.com" target={"_blank"}
                 className="ml-4 text-lg font-medium
