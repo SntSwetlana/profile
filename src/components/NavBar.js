@@ -112,8 +112,7 @@ const NavBar = () => {
           <div className="flex items-center justify-center ">
             <motion.a
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
-              className={`ml-3  rounded-full p-1
-                ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
+              className={`w-7 ml-3  rounded-full sm:mx-1 ${mode === "light" ? "bg-transaparent text-dark" : "bg-transaparent text-light"}
                 `}  
             >
               {
