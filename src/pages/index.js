@@ -48,7 +48,7 @@ export default function Home() {
                 dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
                 hover:dark:border-light md:p-2 md:px-2 md:text-base"
                 download={true}
-                > Resume <LinkArrow className="w-6 ml-3 rounded-full sm:ml-1 border border-solid border-emerald-600"/>
+                > Resume <LinkArrow className={`w-6 ml-3 rounded-full sm:ml-1 border border-solid border-emerald-600`}/>
                 </Link>
                 <Link href="mailto: snt.swetlana@gmail.com" target={"_blank"}
                 className="ml-4 text-lg font-medium
