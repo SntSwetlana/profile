@@ -42,14 +42,14 @@ export default function Home() {
               </p>
               <div className="flex items-center justify-center flex-wrap mt-2">
                 <Link href='/dummy.pdf' target={'_blank'}
-                className="flex items-center justify-center flex-row"
-                // bg-dark text-light p-2.5 px-6 
-                // rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
-                // border-2 border-solid border-transparent hover:border-dark
-                // dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
-                // hover:dark:border-light md:p-2 md:px-2 md:text-base"
+                className="flex items-center justify-center flex-row
+                bg-dark text-light p-2.5 px-6 
+                rounded-lg text-lg font-semibold hover:bg-light hover:text-dark 
+                border-2 border-solid border-transparent hover:border-dark
+                dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
+                hover:dark:border-light md:p-2 md:px-2 md:text-base"
                 download={true}
-                > Resume <span className={`w-6 mx-3 sm:mx-1 border border-solid border-emerald-600`}><LinkArrow /></span>
+                > Resume <span className={`w-6 mx-3 sm:mx-1`}><LinkArrow /></span>
                 </Link>
                 <Link href="mailto: snt.swetlana@gmail.com" target={"_blank"}
                 className="ml-4 text-lg font-medium
