@@ -163,7 +163,7 @@ const NavBar = () => {
                 <DribbleIcon />
               </a>
               <button 
-                className={`w-6 ml-3 rounded-full sm:mx-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}
+                className={`w-6 ml-3 rounded-full sm:mx-1 ${mode === "light" ? "bg-dark text-light" : "bg-transaparent text-dark"}`}
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
               >
                 {mode === "light" ? (
