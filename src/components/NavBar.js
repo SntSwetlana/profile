@@ -172,7 +172,7 @@ const NavBar = () => {
               >
                 <DribbleIcon />
               </motion.a>
-              <button
+              <motion.a
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
                 className={`ml-3 flex items-center justify-center rounded-full p-1
                            ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
@@ -182,7 +182,7 @@ const NavBar = () => {
                 ) : (
                   <MoonIcon className={"fill-dark"} />
                 )}
-              </button>
+              </motion.a>
 
             </nav>
           </motion.div>
