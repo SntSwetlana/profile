@@ -158,21 +158,23 @@ const NavBar = () => {
                 <PintresIcon />
               </a>
               <a href="https://dribble.com" target={"_blank"}
-                className='w-6 mx-3 sm:mx-1'
+                className='w-6 ml-3 sm:mx-1'
               >
                 <DribbleIcon />
               </a>
-              <button 
-                className={`w-6 ml-3 rounded-full sm:mx-1 ${mode === "light" ? "bg-dark text-light" : "bg-transaparent text-dark"}`}
-                onClick={() => setMode(mode === "light" ? "dark" : "light")}
-              >
-                {mode === "light" ? (
-                  <SunIcon className={"fill-dark"} />
-                ) : (
-                  <MoonIcon className={"fill-dark"} />
-                )}
-              </button>
             </nav>
+            <div className="flex items-center justify-center mt-2 pt-10">
+              <button 
+                  className={`w-10 rounded-full sm:mx-1 ${mode === "light" ? "bg-dark text-light" : "bg-transaparent text-dark"}`}
+                  onClick={() => setMode(mode === "light" ? "dark" : "light")}
+                >
+                  {mode === "light" ? (
+                    <SunIcon className={"fill-dark"} />
+                  ) : (
+                    <MoonIcon className={"fill-dark"} />
+                  )}
+                </button>
+              </div>
           </div>
         ) : null
       }
